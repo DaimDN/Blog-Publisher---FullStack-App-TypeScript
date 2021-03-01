@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "es2017",
+      "outDir": "public",
+      "baseUrl": "./"
+    },
+    "include": [
+      "src/**/*.ts"
+, "bin/ConfigServer.ts", "server.ts"    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
