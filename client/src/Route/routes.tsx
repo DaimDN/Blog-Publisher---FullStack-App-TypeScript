@@ -1,4 +1,4 @@
-import React, {FC, Fragment} from 'react'
+import  React, {FC, Fragment} from 'react'
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,13 +14,10 @@ export const Routes: FC= ()=> {
 
         <Router>
         <Fragment>
-
         </Fragment>
-
             <Switch>
             <Route path="/contact" component={Contact}/>
-            <Route exact path="/" component={Homepage}/>
-               
+            <Route exact path="/" component={Homepage}/>               
             </Switch>
         </Router>
        
